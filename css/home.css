@@ -1,0 +1,177 @@
+/*banner1  */
+/*banner1 */
+.banner1 {
+  width: 100%;
+  background-image: url(../images/image\ 2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 20px;
+  padding: 20px;
+}
+
+.banner1 h4 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.banner1 p {
+  font-size: 20px;
+  text-align: center;
+}
+
+/* banner 3*/
+
+.banner3 {
+  width: 100%;
+  background-image: url(../images/image\ 66.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 20px;
+  padding: 20px;
+}
+
+.banner3 h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.banner3 p {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.banner3 i {
+  font-size: 3em;
+}
+
+.banner3 h6 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.banner3 p:last-child {
+  margin-bottom: 0;
+}
+
+.card {
+  width: 230px;
+  height: 260px;
+}
+.imgHome {
+  height: 40px;
+  width: 50px;
+}
+.card-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #201f1f;
+  margin-bottom: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.apply {
+  background-color: #fff;
+  padding: 10px;
+  border: 2px solid #dee1e6;
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+}
+.custom-card {
+  background-color: #111a3aeb;
+  color: white;
+  border: 2px dotted;
+  border-color: #d41e4482;
+}
+.ulbanner li a {
+  color: white;
+  font-weight: bold;
+}
+
+/* about section */
+.about1 {
+  background-image: url(../images/about1.png);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+  color: white;
+}
+
+@media (min-width: 993px) {
+  .about1 {
+    padding-top: 200px;
+  }
+}
+
+/* service*/
+.bg-overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+  z-index: -1;
+}
+/* General styles for dropdown menu items */
+.dropdown-menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.dropdown-menu :hover {
+  background-color: rgb(214, 26, 26);
+  color: white;
+}
+
+.dropdown-menu .dropdown-item {
+  border-bottom: 1px solid #fff;
+}
+
+/* Styles for larger screens */
+.dropdown.dropend .dropdown-menu {
+  left: 100%;
+  top: 0;
+}
+
+.dropdown.dropend:hover .dropdown-menu,
+.dropdown.dropend.show .dropdown-menu {
+  display: block;
+}
+ 
+@media (max-width: 672px) {
+  .navbar-nav .dropdown.dropend.show {
+    display: none;
+  }
+
+  .navbar-nav .dropdown.dropend.show .dropdown-menu {
+    display: block;
+  }
+} 
+ 
+  
+
+   
+ 
+
